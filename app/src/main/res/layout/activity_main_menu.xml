@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.cormac.gym12m.MainMenu"
+    android:background="@drawable/bg1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GymBud"
+
+        android:id="@+id/textView3" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:onClick="onClickStart"
+        android:text="Track" />
+
+    <Button
+        android:id="@+id/btnPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnStart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp"
+        android:onClick="onClickPic"
+        android:text="Take Progress Picture" />
+
+    <Button
+        android:id="@+id/btnEx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:onClick="onClickEX"
+        android:text="Exercise List"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/btnGetW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnGetEx"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btnGetEx"
+        android:layout_marginBottom="29dp"
+        android:onClick="onClickW"
+        android:text="Get All Workouts" />
+
+    <Button
+        android:id="@+id/btnGetEx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnEx"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:onClick="onClickE"
+        android:text="Get All Exercises" />
+
+
+</RelativeLayout>

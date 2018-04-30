@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">GYM12M</string>
+
+
+    <string-array name="header_titles">
+        <item>Abs</item>
+        <item>Arms</item>
+        <item>Back</item>
+        <item>Chest</item>
+        <item>Shoulders</item>
+        <item>Legs</item>
+
+    </string-array>
+
+
+
+    <string-array name ="h1_items">
+        <item>Ab Rollout </item>
+        <item>Side Plank</item>
+        <item>Sit-Ups</item>
+        <item>Russian Twist </item>
+        <item>Swiss ball Crunch</item>
+        <item>Dip/Leg Raise Combo</item>
+        <item>Flutter Kick</item>
+        <item>Leg Raises</item>
+        <item>Plank</item>
+    </string-array>
+
+
+    <string-array name ="h2_items">
+        <item>Standing Curls</item>
+        <item>Seated Curls</item>
+        <item>Incline Curls</item>
+        <item>Concentration Curls</item>
+        <item>Cable Curls</item>
+        <item>Dips</item>
+        <item>Close-Grip Bench Press</item>
+        <item>Close-Grip Push-Ups</item>
+        <item>Laying Triceps Extensions</item>
+        <item>Overhead Extensions</item>
+        <item>Skull Crushers</item>
+        <item>Cable Press-Downs</item>
+        <item>Bench Dips</item>
+
+    </string-array>
+
+    <string-array name ="h3_items">
+        <item>Deadlift</item>
+        <item>Bent-Over Rows</item>
+        <item>Pull-Ups</item>
+        <item>Chiin-Ups</item>
+        <item>T-Bar Rows Rows</item>
+        <item>Seated Cable Rows</item>
+        <item>Inverted Rows</item>
+        <item>Dubmbell Shrugs</item>
+        <item>Barbell Shrugs</item>
+    </string-array>
+
+    <string-array name ="h4_items">
+        <item>Flat Bench Press</item>
+        <item>Incline Bench Press</item>
+        <item>Decline Bench Press</item>
+        <item>Dips</item>
+        <item>Push-Ups</item>
+        <item>Flat Dumbbell Flys</item>
+        <item>Incline Dumbbell</item>
+        <item>Decline Dumbbell</item>
+        <item>Pec Deck Machine</item>
+        <item>Cable Flys</item>
+
+    </string-array>
+
+    <string-array name ="h5_items">
+        <item>Seated Overhead Press</item>
+        <item>Standing Overhead Press</item>
+        <item>Arnold Press</item>
+        <item>Side Raises</item>
+        <item>Front Raises</item>
+        <item>Rear Delt Flys</item>
+    </string-array>
+
+
+    <string-array name ="h6_items">
+        <item>Squats</item>
+        <item>Front Squats</item>
+        <item>Split Squat</item>
+        <item>Leg Press</item>
+        <item>Leg Extensions</item>
+        <item>Leg Curls</item>
+        <item>Good-Mornings</item>
+        <item>Glute-Ham Raises</item>
+        <item>Sumo Deadlifts</item>
+    </string-array>
+
+</resources>
